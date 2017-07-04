@@ -1,0 +1,12 @@
+spring:
+    datasource:
+        url: jdbc:postgresql://localhost:5432/lemon
+        username: lemon
+        password: lemon123!
+        driver-class-name: org.postgresql.Driver
+logging:
+    level:
+        org.springframework.web: DEBUG
+        com.intrum: DEBUG
+        org.hibernate: WARN
+    file: logs/lemon-product-service-logging.log

@@ -1,0 +1,9 @@
+spring: 
+    cloud:
+      config:
+        server:
+          git:
+            uri: git@sdcsrv066.intrum.net:odi/odi-config-server-files.git
+            force-pull: true
+            search-paths:
+              - config
